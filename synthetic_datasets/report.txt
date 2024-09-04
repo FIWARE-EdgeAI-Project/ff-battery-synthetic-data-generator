@@ -1,0 +1,72 @@
+# Output of the generated dataframes description:  
+
+Low Usage, Optimal Charging Scenario:
+       Temperature  Charge_Start   Charge_End  Total_Cycles          SOH
+count  1096.000000        1096.0  1096.000000   1096.000000  1096.000000
+mean     12.573028          20.0    81.770073    190.309176    96.395611
+std      14.178097           0.0     5.683113    110.591422     2.118815
+min     -19.697127          20.0    80.000000      0.231811    92.641252
+25%       4.009684          20.0    80.000000     94.708986    94.542889
+50%      11.918668          20.0    80.000000    189.229438    96.449657
+75%      21.469213          20.0    80.000000    285.664295    98.244069
+max      49.869628          20.0   100.000000    382.389324    99.994349
+Data saved to synthetic_datasets/low_usage_optimal_charging_battery_data.csv
+
+Normal Usage, Optimal Charging Scenario:
+       Temperature  Charge_Start   Charge_End  Total_Cycles          SOH
+count  1096.000000        1096.0  1096.000000   1096.000000  1096.000000
+mean     12.882804          20.0    82.335766    412.002079    93.808456
+std      14.174407           0.0     6.426290    237.910365     3.618578
+min     -19.568714          20.0    80.000000      0.644375    87.463331
+25%       3.657063          20.0    80.000000    205.913370    90.643474
+50%      12.563514          20.0    80.000000    411.499449    93.900269
+75%      21.658892          20.0    80.000000    618.730004    96.978668
+max      49.967825          20.0   100.000000    823.525273    99.990622
+Data saved to synthetic_datasets/normal_usage_optimal_charging_battery_data.csv
+
+Normal Usage, Full Charging Scenario:
+       Temperature  Charge_Start  Charge_End  Total_Cycles          SOH
+count  1096.000000        1096.0      1096.0   1096.000000  1096.000000
+mean     12.612429          10.0       100.0    409.949242    91.456805
+std      13.676287           0.0         0.0    236.976051     5.001502
+min     -19.997573          10.0       100.0      0.732791    82.648437
+25%       3.608373          10.0       100.0    203.941707    87.098330
+50%      11.477707          10.0       100.0    409.261333    91.580671
+75%      21.241919          10.0       100.0    615.256907    95.822695
+max      49.266436          10.0       100.0    819.066410    99.983920
+Data saved to synthetic_datasets/normal_usage_full_charging_battery_data.csv
+
+Normal Usage, Frequent top ups Charging Scenario:
+       Temperature  Charge_Start   Charge_End  Total_Cycles          SOH
+count  1096.000000        1096.0  1096.000000   1096.000000  1096.000000
+mean     12.742802          60.0    81.879562    410.083301    92.640098
+std      13.770019           0.0     5.838629    237.584190     4.325050
+min     -19.864716          60.0    80.000000      0.720403    85.016532
+25%       4.104488          60.0    80.000000    204.415873    88.844815
+50%      12.448642          60.0    80.000000    407.088928    92.749180
+75%      20.254671          60.0    80.000000    614.993249    96.402104
+max      49.693440          60.0   100.000000    821.358370    99.988060
+Data saved to synthetic_datasets/normal_usage_frequent_top_ups_charging_battery_data.csv
+
+Normal Usage, Deep discharge Charging Scenario:
+       Temperature  Charge_Start  Charge_End  Total_Cycles          SOH
+count  1096.000000        1096.0      1096.0   1096.000000  1096.000000
+mean     12.650647           5.0        95.0    413.717127    89.453678
+std      13.783028           0.0         0.0    239.126925     6.199445
+min     -19.816013           5.0        95.0      0.881082    78.579492
+25%       4.020632           5.0        95.0    205.428783    84.001909
+50%      12.761988           5.0        95.0    413.655966    89.615471
+75%      20.711809           5.0        95.0    622.508656    94.885650
+max      49.841580           5.0        95.0    825.759662    99.977133
+Data saved to synthetic_datasets/normal_usage_deep_discharge_charging_battery_data.csv
+
+High Usage, Optimal Charging Scenario:
+       Temperature  Charge_Start   Charge_End  Total_Cycles          SOH
+count  1096.000000        1096.0  1096.000000   1096.000000  1096.000000
+mean     12.411269          20.0    82.080292    819.889556    89.230418
+std      13.714138           0.0     6.108377    473.883977     6.333125
+min     -19.969364          20.0    80.000000      1.028899    78.080741
+25%       3.899750          20.0    80.000000    408.240201    83.715887
+50%      12.261929          20.0    80.000000    823.810339    89.366079
+75%      20.893886          20.0    80.000000   1227.333155    94.768432
+max      49.986730          20.0   100.000000   1642.765464    99.985403
